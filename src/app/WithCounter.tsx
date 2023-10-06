@@ -16,7 +16,7 @@ export const WithCounter = ({children}: Props) => {
     }, [pathname])
 
     return <div>
-        count={count}
+        count={count}, pathname={pathname}
         {children}
     </div>
 }
